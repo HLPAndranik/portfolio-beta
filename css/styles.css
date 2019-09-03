@@ -1,0 +1,55 @@
+/* Title Section */
+
+.container-fluid{
+  background-color: #f4f9f4;
+}
+
+.title-image{
+  width: 90%;
+  border-radius: 100%;
+  padding-left: 25px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+p{
+  text-align: justify;
+}
+
+/* Portfolio Section */
+
+.carousel-images{
+  text-align: center;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 30%;
+}
+
+.port-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#portfolio {
+  background-color: #a7d7c5;
+}
