@@ -72,15 +72,45 @@ p{
 }
 
 .aws-icons {
-  color: #0ec742;
+  color: #28a745;
   font-size: 3.5rem;
   padding: 15px;
 }
 
 .aws-icons:hover {
-  color: #07db42;
+  color: #218838;
 }
 
-#why-choose-me{
+#why-choose-us{
   text-align: center;
+  padding: 7% 15%;
+}
+
+
+.feature-box {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-colomn{
+  padding: 3% 2%;
+}
+
+.must-green{
+  color: #28a745;
+}
+
+.must-red{
+  color: #dc3545;
+}
+
+.must-blue{
+  color: #007bff;
 }
