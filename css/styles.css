@@ -1,14 +1,20 @@
+h1{
+  text-align: center;
+}
+
 h2{
   font-family: Montserrat;
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
+  color: #5f5f5f;
 }
 
 h3 {
   font-size: 1.5rem;
   font-family: Montserrat;
   font-weight: bold;
+  color: #5f5f5f;
 }
 
 p {
@@ -18,17 +24,11 @@ p {
 /* Title Section */
 
 .container-fluid{
-  background-color: #f4f9f4;
-}
-
-.title-image{
-  width: 90%;
-  border-radius: 100%;
-  padding-left: 25px;
+  background-color: #fafafa;
 }
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0;
 }
 
 .navbar-brand {
@@ -46,8 +46,21 @@ p {
   font-size: 1.2rem;
 }
 
-p{
-  text-align: justify;
+.head{
+  text-align: center;
+  padding: 10%;
+  font-size: 200%;
+}
+
+.head-name{
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+strong{
+  color: #8f8f8f;
+  font-family: 'Courgette', cursive;
 }
 
 /* Portfolio Section */
@@ -68,7 +81,7 @@ p{
 }
 
 #portfolio {
-  background-color: #a7d7c5;
+  background-color: #fafafa;
 }
 
 .aws-icons {
@@ -97,6 +110,7 @@ p{
 #pricing{
   padding: 100px;
   text-align: center;
+  background-color: #fafafa;
 }
 
 .pricing-colomn{
@@ -113,4 +127,20 @@ p{
 
 .must-blue{
   color: #007bff;
+}
+
+.social-btn{
+  margin: 10px 0;
+}
+
+.carousel-control-next-icon:after
+{
+  font-size: 39px;
+  color: #5f5f5f;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 39px;
+  color: #5f5f5f;
 }
